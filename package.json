@@ -1,0 +1,17 @@
+{
+  "name": "libcsv",
+  "version": "0.1.0",
+  "description": "",
+  "main": "libcsv.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "kenjiuno",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.8.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
