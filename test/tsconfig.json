@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es3"
+    },
+    "files": [
+        "libcsv.test.ts"
+    ]
+}

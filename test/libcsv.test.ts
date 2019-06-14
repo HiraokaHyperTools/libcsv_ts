@@ -1,6 +1,8 @@
 import { assert } from "chai";
 import { } from "jasmine";
-import csv from "../src/libcsv";
+import { libcsv } from "../dist/libcsv";
+
+var csv = libcsv.csv;
 
 describe("csv.parseWithHeader", () => {
     it("comma", () => {
