@@ -1,5 +1,9 @@
 # libcsv_ts
 
+libcsv TypeScript version
+
+Typedoc: https://hiraokahypertools.github.io/libcsv_ts/
+
 ## Run lifecycle (build, typedoc, and test) operations
 
 ```bat
