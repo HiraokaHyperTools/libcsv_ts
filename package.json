@@ -12,7 +12,7 @@
   },
   "homepage": "https://github.com/HiraokaHyperTools/libcsv_ts",
   "scripts": {
-    "test": "tsc --build test/tsconfig.json && mocha",
+    "test": "mocha",
     "build": "tsc --build src/tsconfig.json",
     "typedoc": "typedoc --out docs --mode modules --tsconfig src/tsconfig.json",
     "prepare": "npm run-script build && npm run-script typedoc && npm run-script test"
@@ -24,8 +24,8 @@
     "@types/chai": "^4.1.7",
     "@types/jasmine": "^3.3.13",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.3",
     "typedoc": "^0.14.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.8.3"
   }
 }
