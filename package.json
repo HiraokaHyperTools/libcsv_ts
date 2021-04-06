@@ -14,18 +14,18 @@
   "scripts": {
     "test": "mocha",
     "build": "tsc --build src/tsconfig.json",
-    "typedoc": "typedoc --out docs --mode modules --tsconfig src/tsconfig.json",
+    "typedoc": "typedoc --out docs --tsconfig src/tsconfig.json --entryPoints src/libcsv.ts",
     "prepare": "npm run-script build && npm run-script typedoc && npm run-script test"
   },
   "author": "kenjiuno",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "@types/chai": "^4.1.7",
-    "@types/jasmine": "^3.3.13",
-    "chai": "^4.2.0",
+    "@types/chai": "^4.2.16",
+    "@types/jasmine": "^3.6.9",
+    "chai": "^4.3.4",
     "mocha": "^6.2.3",
-    "typedoc": "^0.17.8",
-    "typescript": "^3.9.7"
+    "typedoc": "^0.20.35",
+    "typescript": "^3.9.9"
   }
 }
