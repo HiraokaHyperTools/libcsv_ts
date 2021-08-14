@@ -4,9 +4,11 @@
         "moduleResolution": "node",
         "skipLibCheck": true,
         "target": "es3",
-        "outDir": "../dist"
+        "outDir": "./dist",
+        "declaration": true,
+        "esModuleInterop": true
     },
     "files": [
-        "libcsv.ts"
+        "./src/libcsv.ts"
     ]
 }
