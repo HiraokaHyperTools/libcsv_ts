@@ -30,6 +30,7 @@
   },
   "resolutions": {
     "lodash": "4.17.21",
-    "path-parse": "1.0.7"
+    "path-parse": "1.0.7",
+    "minimist": "1.2.6"
   }
 }
