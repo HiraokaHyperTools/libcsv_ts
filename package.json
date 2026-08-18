@@ -27,8 +27,5 @@
     "ts-node": "^10.7.0",
     "typedoc": "^0.28.20",
     "typescript": "5.4.5"
-  },
-  "resolutions": {
-    "nanoid": "3.3.8"
   }
 }
