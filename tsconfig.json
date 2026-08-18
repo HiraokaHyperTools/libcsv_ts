@@ -6,7 +6,8 @@
         "target": "es3",
         "outDir": "./dist",
         "declaration": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "ignoreDeprecations": "5.0"
     },
     "files": [
         "./src/libcsv.ts"
